@@ -1,4 +1,4 @@
-# Visualizing unemployment trends collected by @layoffbot.
+# Visualizing unemployment trends collected by [@layoffbot](https://twitter.com/layoffbot).
 
 <p align="center">
   <img src="https://github.com/imjakedaniels/layoffbot_timeseries/blob/master/covid_tracking_log10.png">

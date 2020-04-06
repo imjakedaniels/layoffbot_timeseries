@@ -37,7 +37,6 @@ layoff_df <- layoff_timeline %>%
 p2 <- layoff_df %>%
   ggplot(aes(x = created_at, y = laid_off_count)) +
   geom_line(colour = "purple") +
-  labs(title = "Tweets of people who may have just been laid off") +
   scale_x_datetime(breaks = scales::date_breaks("1 day"),
                    labels = scales::date_format("%a. \n %b \n %d"), position = "top") +
   scale_y_log10(position = "right") +
